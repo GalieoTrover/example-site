@@ -100,11 +100,17 @@ body {
   grid-gap: 2em; */
   /* width: 400px; */
   display: flex;
-  justify-content: space-evenly;
+  grid-gap: 15px;
+  justify-content: center;
+  /* height: ; */
   /* flex-wrap: wrap; */
   /* margin: 5px; */
   /* padding: 10px; */
   /* box-sizing: border-box; */
+}
+
+.blog-item {
+  box-sizing: border-box;
 }
 
 .blog-item img {
@@ -164,6 +170,8 @@ h3 {
   display: flex;
   grid-column-gap: 1em;
   justify-content: center;
+  padding-bottom: 1em;
+  margin-bottom: 1em;
 }
 
 .blog-items-2 p {
@@ -234,6 +242,7 @@ h3 {
 
 #content-block-2 {
   width: 100%;
+  padding-top: 15px;
 }
 
 .vision {
@@ -369,9 +378,13 @@ body {
 }
 
 .company-name {
-  margin-top: 5px;
-  margin-left: 20px;
+  margin: 5px 20px 0px 20px;
   font-size: 35px;
+}
+
+.company-name a {
+  text-decoration: none;
+  color: white;
 }
 
 .navbar {
