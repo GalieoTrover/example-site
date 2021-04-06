@@ -17,6 +17,7 @@ body {
 
 .splash-image img {
   width: 100%;
+  height: auto;
 }
 
 .splash-content {
@@ -38,7 +39,7 @@ body {
 
 .splash-text p {
   font-size: 24px;
-  color: black;
+  color: white;
   margin: 10px;
   max-width: 25%;
 }
@@ -466,13 +467,15 @@ body {
     font-size: 25px;
   }
 
-  .splash-image img {
-    height: 400px;
-  }
+  /* .splash-image {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  } */
 
   .splash-text {
     flex-wrap: wrap;
-    padding: 1em;
+    /* padding: 1em; */
   }
 
   .splash-text .big-text {
