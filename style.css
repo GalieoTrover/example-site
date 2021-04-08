@@ -196,8 +196,9 @@ h3 {
   grid-template-columns: repeat(3, 400px);
   grid-template-rows: repeat(2, 250px);
   justify-content: center;
-  /* margin: 0 1rem; */
-  /* margin-bottom: 1.4rem; */
+  /* margin: 1rem; */
+  gap: 1rem;
+  margin-bottom: 3rem;
 }
 
 .posts .post {
@@ -208,6 +209,7 @@ h3 {
   /* margin: 0 0.5rem; */
   /* grid-column-gap: 1.5rem; */
   gap: 0.5rem;
+  margin: 1rem;
 }
 
 .posts .post img {
