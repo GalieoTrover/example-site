@@ -69,19 +69,17 @@ body {
 }
 
 .firm-blog-items {
-  padding: 0 1em;
   display: grid;
-  height: 100%;
-  grid-template-columns: repeat(4, 325px);
+  grid-template-columns: repeat(4, 315px);
+  height: auto;
   justify-content: center;
-  margin: 0 10px;
 }
 
 .firm-blog-items .firm-blog-item {
   position: relative;
   width: 300px;
   height: 310px;
-  margin: 5px;
+  margin-bottom: 15px;
 }
 
 .firm-blog-items .firm-blog-item img {
@@ -544,17 +542,16 @@ body {
   }
 
   .firm-blog-items {
-    grid-template-columns: 1fr 1fr 1fr;
-    margin: 1em;
-    padding: 0 6em;
+    /* grid-template-columns: 1fr 1fr 1fr; */
+    grid-template-columns: repeat(3, 145px);
+    margin: 0 1.5rem;
   }
 
   .firm-blog-items .firm-blog-item {
     width: 130px;
     height: 150px;
-    /* position: relative; */
-    /* margin-bottom: 1rem; */
     box-sizing: border-box;
+    margin: 0 10px 15px 0;
   }
 
   .firm-blog-items .firm-blog-item img {
