@@ -538,9 +538,16 @@ body {
   }
 
   .firm-blog-items {
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    /* grid-template-rows: 1fr 1fr; */
     margin: 1em;
     padding: 0 6em;
+  }
+
+  .firm-blog-items .firm-blog-item {
+    width: 150px;
+    height: 150px;
+    margin-bottom: 1rem;
   }
 
   .vision {
