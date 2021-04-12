@@ -85,6 +85,7 @@ body {
 .firm-blog-items .firm-blog-item img {
   width: 100%;
   height: 100%;
+  position: relative;
 }
 
 .firm-blog-items .text-block {
@@ -198,7 +199,6 @@ h3 {
   grid-template-columns: repeat(3, 400px);
   grid-template-rows: repeat(2, 250px);
   justify-content: center;
-  /* margin: 1rem; */
   gap: 1rem;
   margin-bottom: 3rem;
 }
@@ -208,8 +208,6 @@ h3 {
   position: relative;
   width: 100%;
   height: 100%;
-  /* margin: 0 0.5rem; */
-  /* grid-column-gap: 1.5rem; */
   gap: 0.5rem;
   margin: 1rem;
 }
@@ -475,6 +473,11 @@ body {
 
   .blog-item {
     margin-bottom: 1rem;
+  }
+
+  .posts {
+    grid-template-columns: repeat(2, 400px);
+    grid-template-rows: repeat(3, 250px);
   }
 }
 
