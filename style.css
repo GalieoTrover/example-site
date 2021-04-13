@@ -521,10 +521,16 @@ body {
   }
 
   .container .blog-items {
-    grid-template-columns: 1fr;
+    grid-template-columns: 400px;
+    grid-template-rows: repeat(3, 450px);
+    gap: 0.5rem;
     justify-content: center;
   }
 
+  .blog-items .blog-item {
+    height: 100%;
+    width: 100%;
+  }
   .blog-items .blog-item img {
     height: 100%;
     width: 100%;
