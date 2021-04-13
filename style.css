@@ -526,13 +526,14 @@ body {
 
 	.blog-items .blog-item {
 		display: flex;
-		flex-wrap: wrap;
+		/* flex-wrap: wrap; */
+		flex-direction: column;
 	}
 
-	.container .blog-items img {
+	/* .container .blog-items img {
 		height: 100%;
 		width: 100%;
-	}
+	} */
 
 	.container .blog-items-2 {
 		flex-wrap: wrap;
