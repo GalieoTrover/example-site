@@ -521,7 +521,8 @@ body {
   }
 
   .container .blog-items {
-    grid-template-columns: 350px;
+    grid-template-columns: 1fr;
+    justify-content: center;
   }
 
   .blog-items .blog-item img {
