@@ -521,7 +521,7 @@ body {
   }
 
   .container .blog-items {
-    grid-template-columns: 440px;
+    grid-template-columns: 420px;
   }
 
   .blog-items .blog-item img {
